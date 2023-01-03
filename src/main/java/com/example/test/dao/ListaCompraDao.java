@@ -6,4 +6,5 @@ import com.example.test.dao.entity.ListaCompra;
 
 public interface ListaCompraDao extends JpaRepository<ListaCompra, Integer> {
 
+	ListaCompra findBynombre(String nombre);
 }
